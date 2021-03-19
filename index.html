@@ -20,38 +20,52 @@
         <use xlink:href="images/sprite.svg#menu"></use>
       </svg>
       <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">About</a></li>
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#">Why Us?</a></li>
+        <li class="nav__item"><a href="#">Services</a></li>
         <li class="nav__item"><a href="#">Contact</a></li>
-        <li class="nav__item"><a href="#">pricing</a></li>
-        <li class="nav__item"><a href="#">visit</a></li>
       </ul>
     </nav>
 
-    <section class="block container">
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">We Provide Best Services</h1>
+          <p class="hero__tagline">for pest and termite termination</p>
+          <a href="#" class="btn btn-accent btn--stretched">Get Started</a>
+        </header>
+        <img class="hero__image" src="images/banner.png" alt="banner" />
+      </div>
+    </section>
+    <section class="block container block-domain">
       <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
+        <h2>Pocket Friendly Plans at your Doorstep</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis minus
-          accusantium at eos iusto id earum culpa recusandae consequatur eius
-          deserunt cumque, delectus eligendi blanditiis corporis. Harum vero
-          tenetur saepe natus rerum. Vero corrupti et obcaecati hic ipsa, quod
-          blanditiis a distinctio non aperiam voluptate facilis in, quaerat
-          officia expedita.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+          incidunt.
         </p>
       </header>
-    </section>
-    <section class="block block--dark block--skewed-left">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis minus
-          accusantium at eos iusto id earum culpa recusandae consequatur eius
-          deserunt cumque, delectus eligendi blanditiis corporis. Harum vero
-          tenetur saepe natus rerum. Vero corrupti et obcaecati hic ipsa, quod
-          blanditiis a distinctio non aperiam voluptate facilis in, quaerat
-          officia expedita.
-        </p>
+      <div class="input-group">
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter Your PinCode here.."
+        />
+        <button class="btn btn-accent">
+          <svg class="icon icon--white">
+            <use xlink:href="images/sprite.svg#search"></use>
+          </svg>
+          Search
+        </button>
       </div>
+      <ul class="list block-domain__prices">
+        <li><span class="badge badge--secondary">.Termite</span></li>
+        <li>.Pest Control</li>
+        <li>.Roaches</li>
+        <li>.cockroaches</li>
+        <li>.bugs</li>
+        <li>.bedbugs</li>
+      </ul>
     </section>
     <script src="js/main.js"></script>
   </body>
