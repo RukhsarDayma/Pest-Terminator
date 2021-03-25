@@ -47,7 +47,7 @@ h3 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -551,9 +551,9 @@ a {
 /* Callouts */
 
 .callout {
-  padding: 4rem;
+  padding: 2rem 1rem;
   border-radius: 5px;
-  margin: 20px;
+  margin: 6px;
 }
 .callout--primary {
   background: var(--color-primary);
@@ -563,7 +563,7 @@ a {
 .callout__heading {
   color: #fff;
   margin-top: 0;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .callout .btn {
@@ -578,6 +578,14 @@ a {
 @media screen and (min-width: 768px) {
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
+  }
+  .callout {
+    padding: 4rem;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  .callout__heading {
+    font-size: 3rem;
   }
   .callout__content {
     text-align: left;
@@ -744,14 +752,14 @@ a {
   margin: 0 auto;
   background-image: url(../images/banner4.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .side__crop img {
   background-position: 0 -250px;
 }
 
 .hero__tagline {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #000;
   letter-spacing: 1px;
   margin: 2rem 0 5rem;
@@ -766,6 +774,9 @@ a {
 @media screen and (min-width: 768px) {
   .hero {
     height: 80vh;
+  }
+  .hero__tagline {
+    font-size: 2rem;
   }
   .hero__content {
     margin-top: 25rem;
